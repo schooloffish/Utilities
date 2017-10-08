@@ -61,14 +61,32 @@ def random_play(target_path):
                 all_files.append(filePath)
     print('haha: '+str(len(all_files)))
     index=randint(0,len(all_files))
-    subprocess.call(['your_player_exe_path', all_files[index]])
+    subprocess.call(['D:\\Program Files (x86)\\Tencent\\QQPlayer\\QQPlayer.exe', all_files[index]])
+
+def get_random_picture(target_path):
+    all_files=[]
+    picture_types = ['.jpg','.png']
+    for root, dirnames, filenames in os.walk(target_path):
+        for filename in filenames:
+            filename_without_extension, file_extension = os.path.splitext(filename.lower())
+            if file_extension in picture_types:
+                filePath=os.path.join(root, filename)
+                all_files.append(filePath)
+    index=randint(0,len(all_files))
+    print('index:%s'%index)
+    print('len:%s'%len(all_files))
+    return all_files[index]
+
+def random_play_picture(target_path):
+    subprocess.call(["C:\\Program Files\\Internet Explorer\\iexplore.exe",get_random_picture()])
 
 def main(argv):
-    target_path='your_folder_path'
+    target_path='D:\\PUA\\new\\自拍'
     if len(argv)>0:
         func_dicts={"d":decrypt_folder,
          "e":encrypt_folder,
-         "r":random_play }
+         "r":random_play,
+         "rp":random_play_picture }
         if argv[0] in func_dicts:
             func_dicts[argv[0]](target_path);
         else:
