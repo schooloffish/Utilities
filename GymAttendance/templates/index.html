@@ -48,7 +48,16 @@ for(var i=0;i<length;i++){
             var popupStyle=document.getElementById('popup').style;
             popupStyle.display='block';
             popupStyle.left=evt.x;
-            popupStyle.top=evt.y + evt.target.offsetHeight;
+            var top=evt.y + evt.target.offsetHeight;
+            if (top + 400 > window.outerHeight) {
+                    popupStyle.top = '';
+                    popupStyle.bottom = 50;
+                    popupStyle.left=parseInt(popupStyle.left)+50;
+            }
+            else{
+                popupStyle.top=top;
+            }
+            
             console.dir(evt.target);
 
             var absolute_date=evt.target.attributes['id'].value;

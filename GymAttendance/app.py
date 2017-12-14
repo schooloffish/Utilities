@@ -6,7 +6,7 @@ from flask import Flask, jsonify, render_template, send_file
 
 app = Flask(__name__)
 
-source_folder=r"C:\Users\liuxun\OneDrive\传奇健身"
+source_folder=r"D:\SkyDrive\传奇健身"
 
 def get_orignal_datetime(filepath):
     f = open(filepath, 'rb')
