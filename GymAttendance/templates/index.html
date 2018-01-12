@@ -1,11 +1,13 @@
 <html>
 <head>
+    <title>Gym Attendance</title>
     <link type="text/css" href="{{url_for('static',filename='style.css')}}" rel="stylesheet">    
 </head>
 <body>
 {% for key, value in dategroup.items()|sort %}
 <div>
-<h1>{{key}}</h1>
+<h1 style="display:inline-block">{{key}}</h1> {{value['days']|length}}/{{value['daysCount']}}
+<br />
 <table class="gridtable">
     <th>一</th>
     <th>二</th>
