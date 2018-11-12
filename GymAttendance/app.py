@@ -6,7 +6,8 @@ from flask import Flask, jsonify, render_template, send_file, redirect
 
 app = Flask(__name__)
 
-source_folder=r"D:\MyFiles\OneDrive\传奇健身"
+source_folder = r"D:\MyFiles\OneDrive\传奇健身"
+
 
 def get_orignal_datetime(filepath):
     f = open(filepath, 'rb')
@@ -17,11 +18,12 @@ def get_orignal_datetime(filepath):
     else:
         return ""
 
-def find_matching_image(folder,date):
-    image_path=None
+
+def find_matching_image(folder, date):
+    image_path = None
     for root, dirnames, filenames in os.walk(folder):
         for filename in filenames:
-            
+
             filePath = os.path.join(root, filename)
             datetime = get_orignal_datetime(filePath)
             if not datetime:
@@ -30,20 +32,21 @@ def find_matching_image(folder,date):
             else:
                 parts = datetime.split()
                 datetime = parts[0].replace(':', '-')
-            if datetime==date:
-                image_path=filePath
+            if datetime == date:
+                image_path = filePath
                 break
     return image_path
+
 
 def get_all_dates(folder):
     all_dates = []
     for root, dirnames, filenames in os.walk(folder):
         for filename in filenames:
-            
+
             filePath = os.path.join(root, filename)
             datetime = get_orignal_datetime(filePath)
             # if filename=='wx_camera_1491820178605.jpg':
-                # print('datetime:%s'%(datetime))
+            # print('datetime:%s'%(datetime))
             if not datetime:
                 datetime = os.path.getmtime(filePath)
                 datetime = dt.fromtimestamp(datetime).strftime('%Y-%m-%d')
@@ -55,9 +58,11 @@ def get_all_dates(folder):
             all_dates.append(datetime)
     return all_dates
 
+
 def get_days_in_month(year_month):
     parts = year_month.split('-')
     return calendar.monthrange(int(parts[0]), int(parts[1]))
+
 
 def group_dates_by_month(dates):
     result = {}
@@ -71,10 +76,12 @@ def group_dates_by_month(dates):
             result[month_key]['days'].append(date)
     return result
 
+
 @app.route('/img/<string:date>')
 def image(date):
-    image=find_matching_image(source_folder,date)
-    return send_file(image,mimetype='image/jpg')
+    image = find_matching_image(source_folder, date)
+    return send_file(image, mimetype='image/jpg')
+
 
 @app.route('/index')
 def index():
@@ -83,9 +90,17 @@ def index():
     print(sorted(group))
     return render_template('index.html', dategroup=group)
 
+@app.route('/index/<string:year>')
+def index_year(year):
+    all_dates = get_all_dates(source_folder)
+    filter_dates = [x for x in all_dates if x.startswith(year)]
+    group = group_dates_by_month(filter_dates)
+    return render_template('index.html', dategroup=group)
+
 @app.route('/')
 def default():
     return redirect('/index')
+
 
 @app.route('/dates')
 def get_dates():
@@ -94,6 +109,5 @@ def get_dates():
     group = group_dates_by_month(all_dates)
     return jsonify(group)
 
-
 if __name__ == '__main__':
-    app.run(debug=True, host= '0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')

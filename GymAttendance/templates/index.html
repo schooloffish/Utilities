@@ -1,77 +1,78 @@
 <html>
+
 <head>
     <title>Gym Attendance</title>
-    <link type="text/css" href="{{url_for('static',filename='style.css')}}" rel="stylesheet">    
+    <link type="text/css" href="{{url_for('static',filename='style.css')}}" rel="stylesheet">
 </head>
+
 <body>
-{% for key, value in dategroup.items()|sort %}
-<div>
-<h1 style="display:inline-block">{{key}}</h1> {{value['days']|length}}/{{value['daysCount']}}
-<br />
-<table class="gridtable">
-    <th>一</th>
-    <th>二</th>
-    <th>三</th>
-    <th>四</th>
-    <th>五</th>
-    <th>六</th>
-    <th>日</th>
-    {% for w in range(6) %}
-        {% set over_range_day = w*7+1-value['firstDay'] %}
-        {% if over_range_day < value['daysCount'] %}
-    <tr>
-        {% for ww in range(7) %} 
-            {% set cal_day = over_range_day+ww %}
-            {% if cal_day>0 and cal_day<=value['daysCount'] %}
-                {% set current_day =  key+ '-'+('%02d'%(cal_day)) %}
-                {% if current_day in value['days'] %}
-                    <td name="gymDay" style="background:#3090C7;" id="{{current_day}}">{{cal_day}}</td>
-                {% else %}
+    {% for key, value in dategroup.items()|sort %}
+    <div>
+        <h1 style="display:inline-block">{{key}}</h1> {{value['days']|length}}/{{value['daysCount']}}
+        <br />
+        <table class="gridtable">
+            <th>一</th>
+            <th>二</th>
+            <th>三</th>
+            <th>四</th>
+            <th>五</th>
+            <th>六</th>
+            <th>日</th>
+            {% for w in range(6) %}
+            {% set over_range_day = w*7+1-value['firstDay'] %}
+            {% if over_range_day < value['daysCount'] %} <tr>
+                {% for ww in range(7) %}
+                {% set cal_day = over_range_day+ww %}
+                {% if cal_day>0 and cal_day<=value['daysCount'] %} {% set current_day=key+ '-' +('%02d'%(cal_day)) %}
+                    {% if current_day in value['days'] %} <td name="gymDay" style="background:#3090C7;" id="{{current_day}}">{{cal_day}}</td>
+                    {% else %}
                     <td>{{cal_day}}</td>
-                {% endif %}
-            {% else %}
-            <td></td>
-            {% endif %} 
-        {% endfor %}
-    </tr>
-        {% endif %}
+                    {% endif %}
+                    {% else %}
+                    <td></td>
+                    {% endif %}
+                    {% endfor %}
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+        </table>
+    </div>
     {% endfor %}
-</table>
-</div>
-{% endfor %}
-<div id="popup" style="position:absolute;left:20;top:238;display:none">
-    <img id="gymPhoto" width="200" height="400" >
-</div>
-<script>
-var elements=document.getElementsByName('gymDay');
-var length=elements.length;
-for(var i=0;i<length;i++){
-        elements[i].addEventListener('mouseenter',function (evt) {
-            var popupStyle=document.getElementById('popup').style;
-            popupStyle.display='block';
-            popupStyle.left=evt.x;
-            var top=evt.y + evt.target.offsetHeight;
-            if (top + 400 > window.outerHeight) {
+    <div id="popup" style="position:absolute;left:20;top:238;display:none">
+        <img id="gymPhoto" width="200" height="400">
+    </div>
+    <script>
+        var elements = document.getElementsByName('gymDay');
+        var length = elements.length;
+        for (var i = 0; i < length; i++) {
+            elements[i].addEventListener('mouseenter', function (evt) {
+                var popupStyle = document.getElementById('popup').style;
+                popupStyle.display = 'block';
+                popupStyle.left = evt.x;
+                var top = evt.y + evt.target.offsetHeight;
+                if (top + 400 > window.outerHeight) {
                     popupStyle.top = '';
                     popupStyle.bottom = 50;
-                    popupStyle.left=parseInt(popupStyle.left)+50;
-            }
-            else{
-                popupStyle.top=top;
-            }
-            
-            console.dir(evt.target);
+                    popupStyle.left = parseInt(popupStyle.left) + 50;
+                }
+                else {
+                    popupStyle.top = top;
+                }
 
-            var absolute_date=evt.target.attributes['id'].value;
-            document.getElementById('gymPhoto').src='/img/'+absolute_date;
-        });
+                console.dir(evt.target);
 
-     elements[i].addEventListener('mouseleave',function (evt) {
-            document.getElementById('popup').style.display='none';
-            var absolute_date=evt.target.attributes['id'].value;
-    });
-}
+                var absolute_date = evt.target.attributes['id'].value;
+                document.getElementById('gymPhoto').src = '/img/' + absolute_date;
+            });
 
-</script>
+            elements[i].addEventListener('mouseleave', function (evt) {
+                document.getElementById('popup').style.display = 'none';
+                var absolute_date = evt.target.attributes['id'].value;
+                document.getElementById('gymPhoto').src = "";
+            });
+        }
+
+    </script>
 </body>
+
 </html>
