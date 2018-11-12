@@ -2,11 +2,11 @@ import os
 from datetime import datetime as dt
 import calendar
 import exifread
-from flask import Flask, jsonify, render_template, send_file
+from flask import Flask, jsonify, render_template, send_file, redirect
 
 app = Flask(__name__)
 
-source_folder=r"D:\SkyDrive\传奇健身"
+source_folder=r"D:\MyFiles\OneDrive\传奇健身"
 
 def get_orignal_datetime(filepath):
     f = open(filepath, 'rb')
@@ -82,6 +82,10 @@ def index():
     group = group_dates_by_month(all_dates)
     print(sorted(group))
     return render_template('index.html', dategroup=group)
+
+@app.route('/')
+def default():
+    return redirect('/index')
 
 @app.route('/dates')
 def get_dates():
