@@ -1,0 +1,16 @@
+{
+  "name": "youdao_to_anki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
