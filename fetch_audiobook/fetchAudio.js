@@ -3,7 +3,7 @@ const https = require('https');
 const http = require('http');
 const axios = require('axios');
 const iconv = require("iconv-lite");
-const listUrl = 'https://ting55.com/book/13516';
+const listUrl = 'https://ting55.com/book/868';
 const baseUrl = 'https://ting55.com';
 
 function getAudioSrc(source) {
@@ -12,7 +12,7 @@ function getAudioSrc(source) {
         const src = match[0].match(/http.+?(?=")/)
         return src[0];
     } catch (err) {
-        console.log('xxi');
+        console.log('cannot get src url of audio, error: ' + JSON.stringify(err));
     }
 }
 
@@ -29,19 +29,20 @@ function download(src, filename) {
     });
 }
 (async () => {
+    console.log(`analyzing...`);
     const mainHtml = await getHtml(listUrl);
     const playListString = mainHtml.match(/class="plist".+?div/)[0];
 
     const matches = playListString.match(/(?<=href=")\/book.+?(?=">)/g);
+    console.log(`find ${matches} audios`);
     const urls = matches.map((i) => {
         const title = i.split('-').pop();
         return { title: title + '.mp3', url: baseUrl + i };
     });
-
     for (let i = 0; i < urls.length; i++) {
         const urlItem = urls[i];
         try {
-            const html = getHtml(urlItem.url);
+            const html = await getHtml(urlItem.url);
             urlItem.src = getAudioSrc(html);
             console.log(`title: ${urlItem.title}, src:${urlItem.src}`);
             if (urlItem.src) {
