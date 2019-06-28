@@ -1,0 +1,438 @@
+The {{c1::jaywalker}} was run over by a truck.
+Truck {{c1::honk }} is really annoying.
+{{c1::A while back}} , we had a code review of the consumer with Ray and April.
+I don ’ t want to waste too much of your time {{c1::– just wanted to bounce it off you in case I was doing something stupid.}}
+{{c1::That being said}} , this is an easy fix.
+It is {{c1::drizzling}} in the morning.
+{{c1::It's necessary to get rid of my big fat belly.}}
+I'll do something when I free up .
+This task will be ongoing for {{c1:: quite a while}} .
+I {{c1::take my hat off to}} you.
+Which continent is Macedonia in?
+You're so nice, I'll return the favor .
+You {{c1::'re off to}} a good start.
+We need to consider that scenario {{c1::hitting an edge case.}}
+I talked to her the other day.
+We are pretty confident it was MySql issues (or our MySql access layer) that gave us the production outage because UTQ could log in, but not see the dashboard.
+I expect the fix will not be {{c1::that difficult}} and Leo should be able to {{c1::get it done}} tonight unless there are {{c1::unforeseen issues}} .
+ It's 23MB which exceeds the Jira 20MB limit.
+This is {{c1::time consuming}} and {{c1:: error prone}} .
+{{c1::As of right now}} , I need to {{c1::hand this off for you to work on Monday.}}
+I also noticed the TenantPhotoSubject and TenantPhotoComments are {{c1:: mixed around}} {{c1::.}}
+I {{c1::seem to remember}} making this change to the old consumer? Or maybe {{c1:: I'm not remembering right}} . Do you remember us fixing this before with the old schema?
+Sending a workorder to QC in FieldCheck will {{c1:: result in you receiving}} an email from the producer 
+I can {{c1::fill you in}} on more of the details {{c1::some other day}} .
+{{c1::Initial testing}} looks real good on this. Kyle or Paulo will test some more later.
+Don't worry, this will remain unchanged .
+{{c1::Hold off on this}} for a couple of days, I have a new task for you.
+I thought I kn {{c1::e}} {{c1::w you from somewhere}} .
+I'm on a 4g tether and driving through Eastern Colorado(which is very, {{c1::unpopulated}} {{c1::).  so it may take a while if my internet fades in and out.}}
+I'm only concerned with query time , {{c1::I'm less concerned about bandwidth issues.}}
+I don't want be the rebound girl/boy(safety net) any more, I'm gonna be a new man in one month's time, trust me.
+Are you looking for friends with benefits?
+I thought maybe we had fixed this in the dev branch {{c1:: a while back.}}
+We had a fight yesterday, but we  today.
+He paid a fine of $30. 
+He paid a $30 fine .
+The court fined him $200.
+The driver was fined 30 pounds for speeding.
+You think you're invincible , but it's not true, there're always people better than you.
+The 4 horsemen of the {{c1::apocalypse}} {{c1::: War, Famine, Pestilence and Death}}
+They were crazed by the {{c1::famine}} and {{c1::pestilence}} of that bitter winter.
+I'm {{c1::exhausted}} , I need to sleep now.
+Every child loves Ice cream {{c1::cone.}}
+I {{c1::feel obliged}} to end this now.
+When it comes to talking about {{c1::patriotism}} , he's an {{c1::extremist}} .
+They have only a fine distinction between them.
+"Someone's stolen my bicycle! " she said in {{c1::dismay}} .
+I'm eligible for quarterly  bonus.
+March madness is here, Everybody watches the top 65 college basketball teams in the March Madness {{c1::tournament}} !
+People in Szechwan love spicy food, which is full of {{c1::chillies}} .
+Things are {{c1::moving along well}} {{c1::. I know Leo's out part of today.}}
+{{c1::It's raining cats and dogs out there so I am soaked.}}
+ISIS is a terrorist organization, which {{c1::decapitates}} innocent {{c1::civilians}} .
+{{c1::As a result}} , I think we'll need the following changes {{c1:: that I can think of right now}} .
+After discussing the Additional details concept some, we've {{c1::came to the following conclusion}} :
+That {{c1::insidious}} man tried to intimidate me into not {{c1::competing with him.}}
+You {{c1::conspire}} with him against me?
+He tried to {{c1::tempt}} me to cheat in the examination.
+An {{c1::eccentric}} man is playing a prank on us.
+Product, Organization and Subdivision should be 3,3,2 {{c1::respectively}} .
+I ran into some problems. (" meet some problems" is wrong, wrong, wrong )
+Don’t watch the blue movies just because it will {{c1::contaminate}} your mind.
+They cause illness, and they {{c1::contaminate}} our clothes and food.
+The large number of vehicles in big cities heavily {{c1::pollute}} the {{c1::atmosphere}} .
+They decided to dismantle the machine and start again {{c1::from scratch}} .
+My knife has been blunt , can you help me to  {{c1::grind}}  it?
+I'm a {{c1::blunt}} man, I would say no to him.
+Jim's room was immaculate after his mother cleaned it.
+The news today is so far scanty , but good.
+The village school is scanty of textbooks.
+The school principal had to {{c1::reprimand}} the child for {{c1::talking back}} to her teacher.
+Only a {{c1::credulous}} person would fall for that old trick.
+Tina bears a striking resemblance to her mother.
+He could not hide his irritation that he had not been invited.
+Do not use soap as it may {{c1::irritate}} sensitive skin.
+We have at least two objections . First, defining heroes is not the component's job. Second, we can't easily share that list of heroes with other components and views.
+We can refactor this hero data {{c1::acquisition}} business to a single service that provides heroes, and share that service with all components that need heroes.
+Because data services are {{c1::invariably}} asynchronous.
+Do what you desire to me, I'm {{c1::indifferent}} .
+Every Angular app has at least one root component, {{c1::conventionally}} named AppComponent
+{{c1::Years of experience and bitter tears}} have taught us to keep complex logic out of the constructor.
+{{c1::By convention}} , we'll find it in a file named app.component.ts
+{{c1::He does not drink at all ; a little wine may intoxicate him .}}
+However, the heart was more {{c1::profound}} thinking of you.
+She felt {{c1::revulsion}} at his appearance.
+You were {{c1::deliberately}} trying to humiliate me.
+The new design is so abstruse that we need more time on it.
+{{c1::Inflatable}} dolls are designed for the bachelors.
+She has been {{c1::indiscriminate}} in choosing her friends.
+She cannot just be written off as an {{c1::eccentric}}  {{c1::recluse}} .
+She {{c1::despises}} the girl who tried to kiss her boyfriend.
+They have so much scorn for me; why do they hate me so much?
+They have nothing but contempt for me!" she said in {{c1::sorrow}} .
+Hi, guys, it's difficult not to be {{c1::tempted}} by such a nice job, right?
+She feels the lure of his muscles.
+She is {{c1::bewildered}} ; she does not know what to do.
+Let's go look for treasure in the {{c1::sunken}}  {{c1::wreck}} !
+I want to hear this gossip - speak up, and don't {{c1::mumble}} !
+The {{c1::cement}} cracked open, leaving a cleft about five centimeters across.
+{{c1::Fervent}}  {{c1::religious}} extremism has encouraged people to {{c1::assail}} the government.
+Parrots {{c1::perch}} on high branches.
+What a beautiful sight--cows {{c1::grazing}} peacefully on a green {{c1::pasture}} .
+The sun rises over the grassy {{c1::meadow}} .
+Cycling uphill is an arduous task.
+These old-fashioned aristocrats used to rule Europe.
+The {{c1::devastating}} earthquake reduced the town to {{c1::rubble}} .
+Riding {{c1::astride}} while practicing yoga.
+Of course the moon landing was {{c1::hoax!}}
+The two wrestlers grappled in the ring.
+The man holds a grudge against the woman for a fight they had last week.
+The woman {{c1::hauled}} her drunk husband home.
+A strange {{c1::swamp}} creature? How eerie !
+The potato was hot, so I fumbled and dropped it.
+Writing such push/pull logic by hand is {{c1::tedious}} , {{c1::error-prone}} , and a nightmare to read as any experienced jQuery programmer can attest .
+The old man {{c1::hobbles}} over the {{c1::pedestrian crossing}} .
+That chair looks a little {{c1::rickety}} .
+She loved to laugh, and her {{c1::mirth}} was {{c1::infectious}} .
+Why do {{c1::moths}} love light so much?
+The {{c1::glint}} of gold and jewels led me to the undersea treasure.
+The golden coins gleam in the light.
+The stars {{c1::flicker}} in the sky.
+All these nasty jibes about my haircut are getting really old.
+Make sure to be very thorough , take your time, and do lots of testing.
+Let's put the angular 2 migration {{c1:: on hold}} for a few days
+it's {{c1::the wave of the future.}}
+{{c1::At first glance}} , I noticed a couple things.
+We love {{c1::beef jerky}} .
+I see some {{c1::leftover}} query-builder code in the appModules.js
+You've been {{c1::making great progress}} {{c1::! keep it up!}}
+So the first question that comes to my mind is:
+Leo is so good at cartwheels . He can do it 3 times in a row.
+{{c1::Hotpot is so good and it's even worth having diarrhea.}}
+We have been {{c1:: stuck/sit in traffic}} for two hours.
+Can you {{c1::drop me off}} at Kai's house today?
+{{c1::Popsicles}} are the best thing in the summer.
+You can't drink tap water directly, you will get sick.
+{{c1::Fruit punch}} is very tasty.
+I can't swim without my swimming goggles .
+There're all kinds of floaties in the swimming pool.
+I did a {{c1::forward}}  {{c1::roll, backward rolls are way tougher than forward rolls.}}
+It's safe to stay in the shallow end.
+I've only seen one guy do front flips in my life, and I've never seen anyone do a {{c1::back flip}} .
+Can you {{c1::flip over}} this card?
+It's a {{c1::tie}} , it's a tie again.
+Barney is that crazy about {{c1::laser gun/tag}}
+My kid loves {{c1::trampoline}} .
+We have to present our IDs, then check in the luggage, these are my {{c1::checked luggage}} , and the rest of them are {{c1::carry-on luggage}} . 
+Yes, It's a {{c1:: non-stop}} flight, let's .
+We have 2 hours' layover in Lox, we would have a good time there.
+{{c1::back}} into the parking lot.
+back out of the parking spot/lot
+I want you to show me how to {{c1::reverse into that parking lot}} .
+I always feel clumsy while {{c1::reversing a car}} . 
+Enters a valid date in Begin Date field, then a date that {{c1::precedes}} that in End Date field.
+I {{c1::tend to}} like Option 2 better, but I want to discuss with you guys. The only {{c1::downside}} that I see on Option 2 is how it will affect the search.
+{{c1::Stick with}} the default unless you have a {{c1::compelling}} reason to {{c1::resort}} to hash routes.
+{{c1::hot air balloon}} , that takes people up in a basket?
+We took {{c1::a short day trip}} to Luodai ancient town.
+He's been {{c1::bossed}} around by his wife. He's so {{c1::henpecked}} . 
+Keep it, it {{c1::comes in handy}} .
+Find a {{c1::liver}} to save his dad.
+She is a TV {{c1::addict}} and watches as much as she can.
+I've been suffering from insomnia .
+I have a {{c1::stuffy/stuffed}} {{c1:: }} {{c1:: nose}} .
+My nose is always plugged/clogged up .
+I'll {{c1::take a rain check}} on the beer.
+{{c1::CIA is not allowed to take action in America soil.}}
+She was caught for treason .
+For the purpose of sign the contract, we are ready to {{c1::make a concession}} .
+I'll find the mole and {{c1::take revenge on}} him.
+Clock is ticking.
+He always {{c1::spilled}} the drinks.
+Being an {{c1::informant}} is so dangerous.
+I'm going to {{c1::puke}} now.
+I'm not here to gloat .
+Go {{c1:: chase down}} the leads and find the bad guy.
+Get me a cup of coffee, chop, chop .
+It is a {{c1::scam}} and will give them access to your Facebook account.
+She is my {{c1::least favorite}} teacher. 
+We should {{c1::cut}} her some slack .
+We'll {{c1::catch up}} soon.
+I went to a {{c1::boarding school}} .
+You're leaving? for good ?
+Take the {{c1::initiative}} . You'll be rewarded for it.
+Every villain has his Achilles' heel .
+The government must deport those illegal aliens.
+{{c1::Sounds like a winner}} ! Let's do it.
+Can you {{c1::give me a ride}} ?
+I'll {{c1::keep you posted}} .
+ISIS is {{c1::infamous}} .
+Please just let me take a peek at it.
+We have no means to make a concession .
+Those are my {{c1::terms}} .
+His {{c1::foster}} father is a good guy.
+You {{c1::spoiled}} that boy.
+{{c1::In regards to}} Time Outs during Searches, I no longer get timeouts when searching by Work Order Number.
+Clinton still leads Trump in the CNN {{c1::Poll of Polls.}}
+There're lots of people in Trump {{c1::rally}} .
+The media here is very {{c1::biased in favor of}}
+We got protesters outside the {{c1::embassy}} here.
+Do not {{c1::brag}} or bluff.
+Nate and Ray are lost in feudal japan.
+Do not push your political beliefs and {{c1::bias on to your students.}}
+He tweeted out a picture of his filled-in {{c1::ballot with the caption}}
+Our nation should take care of {{c1::veteran}} .
+The new Home Land is coming, no {{c1::spoilers}} , please.
+ I think we should take the retention period {{c1::into consideration just to be safe.}}
+I wanted to start a punch-list of tasks that we’ll be focusing on in order to {{c1::get into production}} .
+Give a think on it.
+I've done some testing today and {{c1::overall}} it's working very well.
+So if this matches the query patterns of your application, the multi-column index approach is {{c1::worth considering}}
+Node.js {{c1::filled this gap with}} the  CommonJS  module format
+These core modules will always {{c1:: take precedence}} in the loading {{c1::algorithm}} .
+Curious, I dug into Node core to find out what was happening {{c1::under the hood.}}
+require(), it turned out, was just {{c1:: the tip of the iceberg}} .
+but I do it {{c1::out of habit}} .
+Leo, I did have a question for you on 2134. But {{c1::other than that}} I think I want  you guys to start investigating openlayers v4 and working on some openlayers v3 and v4 samples and tutorials
+{{c1::I just want to double check to make sure it was intended.}}
+I was {{c1::swamped}} on non-FC work today.
+We {{c1::come across}} a bug.
+{{c1::Water dispenser/water cooler are popular in China, but water fountain is rare.}}
+I've {{c1::outlined}} the basic changes we will need to make below.
+It is no fun hanging out with {{c1::vindictive}} people, who are forever out to get back at people they think have hurt them. If you forget to say hello to them one day in the hall, they will carry a {{c1::grudge}} against you into next week.
+however, it may be more user-friendly if a different term were used. "Worker Name" appears directly below "Worker Login", {{c1::leading}} people to believe that these are the same people.
+When you leave someone at altar, you always leave a note, it's {{c1::common courtesy}} .
+It really makes the panel {{c1::cluttered.}}
+I want to {{c1::clarify}} the original task description.
+You got yourself into this state by {{c1::overeating}} .
+You need to {{c1::go easy on}} her.
+You're {{c1::holding up the line}} .
+The fox said with a grin : "Crow, your wings are big and strong".
+What are you  sniggering  at? Haven't you seen people kissing before?
+They look like the teeth of some {{c1::fierce}} animal.
+I don't know, she said fiercely .
+Many people call on Congress to {{c1::impeach}} President Trump.
+Don't {{c1::wallow}} in guilt, it's one of the most useless emotions of all.
+Are we {{c1::stalled out on}} that?
+{{c1::How}}  {{c1::strong}} are your glasses? 3 diopters.
+I'm quite {{c1::partial}} to red wine.
+I'll keep {{c1::pestering}} Henri if I don't hear back from him in 30.
+You guys are going to have to {{c1::stay alert}} {{c1::, because I'm pretty frazzled today.}}
+Bath mats can prevent people from {{c1::slipping down}} in the bathroom.
+But today being Saturday rather {{c1::complicates matters}} .
+He waved his hand, turned on his heel, and disappeared in an instant among the crowd.
+He is a {{c1::formidable}} man-  a man who might play a deep game.
+A considerable crime is in contemplation .
+She has been {{c1::enwrapped in}} this TV show .
+I'm always {{c1::oppressed}} in my dealings with him.
+Einstein discovered the dual nature of light.
+The huge {{c1::vault}} / {{c1::cellar}} was {{c1::piled}} {{c1:: all round with crates and massive boxes.}}
+The {{c1::solemn}} man {{c1::perched}} himself {{c1::upon}} a {{c1::crate}} .
+Everyone loves steamed perch  {{c1::with garlic relish.}}
+She likes {{c1::humming the tunes}} when she is {{c1::merry.}}
+I have no {{c1::compunction}} about shooting them down.
+M y nerves worked up to a pitch of expectancy .
+M y nerves were worked up to the highest pitch of tension .
+The pistol clinked upon the stone floor.
+Don't clink the keys in your pocket.
+My hearing was so {{c1::acute}} that I can hear eveything.
+His {{c1::writhing}} fingers {{c1::protruded}} out of the floor.
+She {{c1::yawned}} during her lecture.
+This bank abutted on our friend's premises.
+I exlaimed in unfeighned admiration.</li> 
+Had there been women in the house, I should have suspected a mere {{c1::vulgar intrigue}} .
+The four pounds a week was a {{c1::lure which must draw him.}}
+My limbs were weary and {{c1::stiff}} .
+I can see him now, with pasty face, drooping lids and pin point {{c1::pupils}} , all {{c1::huddled}} in a chair.
+Folk who were in grief came to my wife like birds to a lighthouse.
+A heavy rain {{c1::drenched}} all of us.
+He was suffering from uncontrolled {{c1::hiccups}} .
+This lady clad in some dark-colored stuff with a black veil.
+It was none other than Sherlock Holmes.
+A {{c1::sallow}} Malay attendant had hurried up with a pipe for me.
+I am all off color .
+He {{c1::shuffled}} along with a bent back for two streets, what a {{c1::pitiable}} man.
+Thank you, {{c1::Comrade}} {{c1:: Obama, for saving children from the menace of guns.}}
+The baby dog {{c1::staggered}} to me.
+She {{c1::staggered}} about whether to reveal it all.
+That {{c1::sordid}} man {{c1::barged}} into the party without an invitation.
+I saw an old woman barging .
+The old man {{c1::limped}} away on the stick
+He is too {{c1::limp}} to get into any  .
+That cool guy built his own {{c1::barge}} to live on when he couldn't afford London house prices.
+{{c1::It took all my self-control to prevent me from breaking out into a cry of astonishment.}}
+This quest seemed to tax his power sorely.
+{{c1::By degrees}} he made friends in the neighborhood.
+He went into town as a rule in the morning.
+Her husband waved his hands {{c1::frantically}} to her, {{c1::beckoning}} to her from a second floor window.
+She has a {{c1::vile}} temper.
+Don't touch me with your filthy hands, for I have royal blood in my {{c1::veins}} .
+All the efforts he invested were in {{c1::vain.}}
+Water is {{c1::vital}} to the human.
+The  {{c1::veil}}  she was wearing  {{c1::obscured}}  her  {{c1::features}} . 
+I’ll use a bleach pen to remove the red {{c1::splotch from my white shirt.}}
+What's this purple stain on your pants?
+There was a dark  smudge  on his forehead.
+The lens is easy to scratch or {{c1::smudge}} .
+Visitors to the mine must {{c1::comply with}} the rules.
+The experience has amply justified this belief.
+They are doing some upgrades on the vault server today which is really {{c1::slowing us down to a crawl on progress}}
+But if we can do the 2 options above I think that will {{c1::suffice}} .
+"It was me", he {{c1::muttered}} / {{c1::murmured}} .
+We see a {{c1::burly}} , bearded man with an accent, sitting at that chair.
+I'm {{c1::overwhelmed}} by work. I'm overwhelmed with jealous.
+I felt  {{c1::stiff}}  after a long walk.
+Her face was  rigid  with terror.
+She was a fairly   person who had strong religious views.
+The stream has thinned down to a mere {{c1::trickle}}
+I tried my best to soothe his anger.
+I had a {{c1::vague}} impression that he was a cold-hearted man.
+Leo and I have just went through a 3 day {{c1::ordeal to get his password reset.}}
+The wound was closed with fourteen&nbsp; {{c1::stitches}} . 
+I {{c1::sweat}} a lot when I sleep, so the bed is {{c1::damp/dank}} .
+He  {{c1::lashed into}}  the prisoner until he lost  consciousness . 
+I'm supposed to meet someone here for the first time, and I've got the {{c1::jitters}} .
+{{c1::lightning rod}} can protect the building from a lightning strike.
+{{c1::put out the fire}} please
+What kind of leader constantly {{c1::puts everyone else's life on the line}} ?
+The battle was fierce {{c1::, but I managed to dismantle his entire force.}}
+There's nothing abnormal in his bloodwork.
+You want us to {{c1::adlib(}} {{c1::单口相声}} {{c1::)}} like he wants us to?
+He {{c1::rose to the occasion}} and {{c1::cracked jokes}} .
+Sorry for all of the back and forth on this.
+That undercarriage is filthy .
+How was progress on this one?
+{{c1::We just need to make sure this change doesn't result in prince or utq users getting locked out of workorders they used to have access to.}}
+I expect nothing less from you.
+That's of {{c1::no concern}} .
+I can't let that get in the way of us achieving our goal - enlightenment.
+Allow me to pay his fare
+No more Harry and Cisco traumatizing me to get Killer Frost to show up
+You risk using( {{c1::连读}} {{c1::)}} it to make breakfast?
+You fond the thinker's lair .
+I don't really do confrontation.
+You're a {{c1::moron}} .
+You're no threat for an intellect of my {{c1::magnitude}} .
+Do you like The Terminator {{c1::sequel}} ?
+She {{c1::reached the apex}}  of fame, only to find it wasn't what she expected.
+The criminal  suspect has been  {{c1::contained}} .
+You knew there were gonna be {{c1::casualties}} when we began.
+We don't want to blast her across the speed lab, she could get injured.
+It doesn't require me getting a {{c1::migraine}} .
+But please let me know an idea of what you plan to take off – even if it’s not {{c1::set in stone.}}
+Knock him out, then cuff him.
+A {{c1::militia}} group found me.
+Let's {{c1::split up}} .
+People needs to know his maniacal plan.
+{{c1::Acupuncture}} is popular in China.
+No one's heard a peep from her in months.
+The team always liked to keep what we're working on {{c1::low-key}} .
+They're pretty tight-lipped .
+The script looks pretty straight-forward
+A large and comfortable double-bedded room had been placed at our disposal.
+{{c1::The brandy brought a tinge of color into his cheeks.}}
+there lies your only hope of safety
+He was charged with being concerned in the disappearance of Mr Lee.
+I must have turned off my alarm {{c1::without realizing}} . 
+The existing Admin role can be left ' {{c1::as-is}} ' 
+This will add a bit of complexity .
+She is a {{c1::late riser}} as a rule.
+The door was {{c1::dashed open}} .
+It's still isn't perfect, but I think it's a decent {{c1::compromise}} for now and it's a lot better than it used to be. 
+I'm no doubt {{c1::indirectly}} responsible for his death.
+It's likely to weight very heavily on my {{c1::conscience.}}
+It's really enough to finally {{c1::dispel}} any doubts which may have remained.
+It's a {{c1::dead end}} .
+What would you do when you {{c1::hit a wall}} ?
+That‘s a {{c1::tempting }} offer.
+You don’t need to go through any hassles .
+If our current risk functionality will {{c1::meet the needs}} of his new project.
+I'm not much of a story teller .
+Your best plan would be to make a direct appeal to your wife.
+I am {{c1::justified in}} taking my own line.
+After that I determined to {{c1::lie in wait}} , so I got out my revolver and I sat up in my {{c1::study}} , which {{c1::overlooks}} the lawn and garden.
+I {{c1::implored}} you to go now.
+We might go and travel, you and I, and so avoid this {{c1::nuisance}} .
+I saw a dark, creeping figure which  round the corner and {{c1::squatted}} in front of the door.
+She {{c1:: clings to}} me most {{c1::desperately}} .
+He {{c1:: laid ou}} t all the slips of paper containing dancing men in front of him, and threw himself into an intricate and {{c1::elaborate}} calculation.
+He is so completely absorbed in his task that he had {{c1::evidently}} forgotten my .
+She said with furrowed brow: I don't like it.
+I'd like to take our friend some very {{c1::definite}} news {{c1::as to}} {{c1:: the secret of his annoyance.}}
+He liked to {{c1::make his disclosures}} at his own time and in his own way.
+We should {{c1::take him into our confidence.}}
+The {{c1::pedestal}} of the {{c1::sculpture}} is made of {{c1::copper.}}
+Since childhood, I put {{c1:: my own parents on a pedestal. I felt they could do no wrong.}}
+He bent over this {{c1::grotesque}} frieze. 
+This is another sign of anxiety
+Sorry for the short notice
+Another {{c1::fallback option}} would be 
+Closing since this task has been {{c1::superseded}} by new ones.
+Sorry for the wild goose chase .
+one might learn how the wrongs of herself and her brother came to be {{c1::avenged}} .
+I saw his tall spare figure pass twice in a dark {{c1::silhouette}} against the blind.
+I {{c1::was seized with a keen desire to see Holmes again, and to know how he was employing his extraordinary powers.}}
+His manner was not effusive .
+Then he stood before the fire, and looked me over in a singular {{c1::introspective}} fashion.
+I think {{c1::wedlock}} suits you.
+She is really incorrigible .
+He {{c1::chuckled}} to himself and rubbed his long nervous hands.
+Someone {{c1::scraped round}} {{c1:: the edges of the sole in order to remove crusted mud from it. }}
+You had been out in vile weather.
+A {{c1::bulge}} on the side of his top hat to show where he has secreted his {{c1::stethoscope}} .
+I was {{c1::baffled}} until you explained your process.
+you are good enough to chronicle {{c1:: one or two of my trifling experiences. }}
+your recent services to one of the royal houses of Europe have shown that you are one who may safely be trusted with matters which are of an importance which can hardly be {{c1::exaggerated}} .
+It is a  capital  mistake to theorize before one has data. 
+The spring walked insensibly , the summer arrived.
+The man who wrote it was presumably well-to-do.
+They are {{c1::endeavouring}} to {{c1::imitate}} my companion's processes.
+My father is a cleaner at a local paper  mill . 
+He sent up a great blue triumphant {{c1:: cloud from his cigarette.}}
+there was a loud and authoritative tap.
+Tom will also check up on progress {{c1::in my absence}} and help with any questions and reviewing.
+This {{c1::brooch}} consists of a single flaming  {{c1::beryl}} .
+This works the hamstrings  and  {{c1::calves}} . 
+This builds your  {{c1::calves}}  and  {{c1::sculpts}} {{c1:: your butt. }}
+Virtually every government prior to World War I was cruel and {{c1::barbaric}} by modern standards. 
+he carried a broad- brimmed hat in his hand.
+{{c1::It is happening in this fashion because of the obstinacy of one woman.</li> }}
+He said it with a deep, harsh voice and a strongly marked German accent
+You are a man of honor and {{c1::discretion}} .
+He {{c1::shrugged}} his shoulders.
+This {{c1::scandal}} implicates so many people.
+After talking with him, we decided on a {{c1::compromise}} to help {{c1::alleviate}} the issue.
+I’m sure we can accommodate this, but it will take a little work.  
+An  {{c1::incisive}}  change in&nbsp;Greek philosophy and thought took place in the fifth century.
+Place the  specimen  on a microscope slide.
+The Queen of England is a  {{c1::hereditary}}  ruler.
+In men, hair loss is  {{c1::hereditary}} .
+He paused near the  crack  in the ground.
+Her decision of marrying a ;man half of her age creates a deep ; {{c1::rift between her and her parents.}}
+Plants placed between blocks of stone thrive if there is a good depth of soil in the  chink  and the soil is {{c1::moist}} .
+{{c1::Formerly letters were left by passing ships in a crevice in one of the rocks.}}
+The  {{c1::cranny}}  in the table became more and more wide. 
+{{c1::You should be able to deploy this week as planned without us having to deploy alongside you.}}
+I've been {{c1::slammed}} all day with prod issues and getting releases ready for FC and eSketch.
+I didn't {{c1::line up}} any work for you guys.
